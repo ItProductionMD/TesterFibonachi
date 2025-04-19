@@ -27,7 +27,7 @@ while (true)
     }
     stopWatch.Stop();
     Console.Write($"\n{number}-th Fibonacci number is {f}\n" +
-        $"cycles {total}\n" +
+        $"Fibonacci Sum{total}\n" +
         $"time elapsed with function:{stopWatch.ElapsedMilliseconds} ms\n");
 
     Console.WriteLine("\nPress Enter to Continue or 'exit' to end the program.");
