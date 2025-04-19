@@ -45,7 +45,7 @@ public class FibonacciCalculator
     public void PrintReport()
     {
         Console.Write($"\n{Input}-th Fibonacci number is {LastResult}\n" +
-        $"cycles {Total}\n" +
+        $"Fibonacci Sum {Total}\n" +
         $"time elapsed with OOP:{ElapsedMilliseconds} ms\n");
     }
 }
